@@ -18,7 +18,7 @@ pipeline {
         }
           stage('Deploying') {
             steps{
-
+                sh "printenv"
             }
         }
     }
